@@ -9,7 +9,7 @@ def reverse_number(n):
     return reversed_num
 
 
-number = int(input("Enter a nonnegative integer: "))
+number = int(input("Enter a non-negative integer: "))
 
 if number < 0:
     print("Please enter 0 or a positive integer.")
